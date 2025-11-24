@@ -15,8 +15,5 @@
       "src": "/(.*)",
       "dest": "/pages/$1.php"
     }
-  ],
-  "env": {
-    "DATABASE_URL": "@database_url"
-  }
+  ]
 }
