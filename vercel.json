@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "*.php": {
+      "runtime": "php"
+    }
+  },
   "rewrites": [
     {
       "source": "/(.*)",
