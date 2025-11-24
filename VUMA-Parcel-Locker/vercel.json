@@ -1,44 +1,8 @@
 {
-  "functions": {
-    "api/**/*.php": {
-      "runtime": "php"
-    },
-    "pages/**/*.php": {
-      "runtime": "php"
-    }
-  },
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    },
-    {
-      "source": "/setup",
-      "destination": "/pages/setup.php"
-    },
-    {
-      "source": "/login",
-      "destination": "/pages/login.php"
-    },
-    {
-      "source": "/dashboard",
-      "destination": "/pages/dashboard-user.php"
-    },
-    {
-      "source": "/admin",
-      "destination": "/pages/dashboard-admin.php"
-    },
-    {
-      "source": "/parcels",
-      "destination": "/pages/parcels.php"
-    },
-    {
-      "source": "/lockers",
-      "destination": "/pages/lockers.php"
-    },
-    {
       "source": "/(.*)",
-      "destination": "/pages/index.php"
+      "destination": "/index.php"
     }
   ]
 }
